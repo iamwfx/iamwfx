@@ -31,7 +31,7 @@
 --------------------------------------------------------------------------*/
 
 body {
-	color: #111;
+	color:  #333;
 	font-family: "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 28px;
@@ -63,7 +63,7 @@ h3,
 h4,
 h5,
 h6 { font-weight: bold;
-color;#58595b; }
+color;#58595b }
 
 h1{
 	font-size: 2em;
@@ -485,7 +485,7 @@ div{
 	}
 
 		ul#nav > li a {
-			color: #aaa;
+			color: #333;
 			display: block;
 			padding: 18px 0 15px 0;
 			margin: 0 20px;
@@ -618,8 +618,8 @@ div{
 	}
 
 	#header p.site-desc {
-		color: #58595b;
-		/*color: #000000;*/
+		/*color: #58595b;*/
+		color: #333;
 		font-size: 2em;
 		line-height: 40px;
 		font-family: "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -966,7 +966,7 @@ div{
 		}
 
 			#shop .cart-item .item-name h4 {
-				color: #aaa;
+				color: #333;
 				font-weight: bold;
 			}
 
@@ -983,7 +983,7 @@ div{
 		}
 
 			#shop .cart-item .item-price span.markdown {
-				color: #aaa;
+				color: #333;
 				text-decoration: line-through;
 				display: block;
 			}
@@ -1058,7 +1058,7 @@ div{
 	}
 	
 	#shop .sidecart h4 {
-		color: #aaa; 
+		color: #333; 
 	}
 
 		#shop .sidecart h4 a {
@@ -1067,7 +1067,7 @@ div{
 		}
 
 		#shop .sidecart p.desc {
-			color: #aaa; 
+			color: #333; 
 			margin-top: 20px; 
 		}
 
