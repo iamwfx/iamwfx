@@ -1,26 +1,353 @@
-<!doctype html>
-<meta charset="UTF-8">
-<html>
-<title>Site Maintenance</title>
-<style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #dc8100; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-  <!-- Favicons
-  ================================================== -->
-  <link rel="shortcut icon" href="images/favicon.png">
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Wenfei Xu</title>
+	<meta name="description" content=".">
+	<meta name="author" content="">
+	
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- CSS Files
+	* cssreset-min.css 			- CSS reset
+	* typegrid.css				- Responsive grid system
+	* style.css					- Main CSS file
+	
+	Original LESS Stylesheet
+	<link rel="stylesheet/less" type="text/css" href="css/style.less" />
+	================================================== -->
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssreset/cssreset-min.css">
+	<link rel="stylesheet" type="text/css" href="css/typegrid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+		
+	<!--[if lt IE 8]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
 </head>
+
 <body>
-    <h1>Wenfei's website is under construction</h1>
-    <div>
-        <p>
-          <img width = "100%" src="images/smb3.png"/></p>
-    </div>
+
+
+	<!-- Header - Half Logo
+	================================================== -->
+	<section id="header">
+
+		<!-- * * * * * * * * * * * * * * * * * * * * * * *
+
+			Top Bar & Menu (#nav)
+
+		* * * * * * * * * * * * * * * * * * * * * * * * -->
+		<div class="topbar">
+			<div class="container">
+					
+				<!--
+					A custom jQuery plugin called typeMenu handles the menu
+					Add .hide-on-mobile to <li> elements to hide a specific item on mobile viewports
+				-->
+				<ul id="nav" class="full">
+					<li>
+						<a href="index.html">
+							<span class="count hide-on-mobile">01.</span>
+							Home
+						</a>
+						<!-- <ul>
+							<li><a href="index-with-iosslider.html">Home w/ Slider</a></li>
+							<li><a href="index-with-flexslider.html">Home w/ Slider 2</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul> -->
+					</li>
+					<li class='researchHeader'>
+						<a>
+							<span class="count hide-on-mobile">02.</span>
+							Research
+						</a>
+
+					</li>
+
+				<!-- 	<li>
+						<a class='designHeader'>
+							<span class="count hide-on-mobile">03.</span>Design
+						</a>
+					</li> -->
+
+					<li>
+						<a href="about.html">
+							<span class="count hide-on-mobile">03.</span>
+							About
+						</a>
+					</li>
+					
+				</ul><!-- // #nav -->
+
+			</div><!-- // .container -->
+		</div><!-- // .topbar -->
+
+		<div class="logo-wrap">
+			<div class="container">
+				<div class="desktop-1 columns">
+					<h1 ><!-- <a href="index.html" title="Home"> --><!-- <img id ='introimage' src="images/intro_icons/city.svg" alt="" /> --></a></h1>
+				</div><!-- // .desktop-6 -->
+
+				<div class="desktop-12 columns">
+					<p class="site-desc">
+						
+						<img id ='introimage' src="images/intro_icons/city.svg" alt="" />
+
+						<strong>Wenfei Xu</strong> is an urban data scientist, planner, and designer specializing in the intersection of spatial data analysis and visualization. She is currently a researcher at the <a href="http://www.civicdatadesignlab.org"><u>Civic Data Design Lab</u></a> in the <a href="http://dusp.mit.edu"><u>Department of Urban Planning at MIT</u></a>. Currently, she is directing a project on discovering residential vacancy across China through social media data, and a project on developing an open-source place-making / place-sensing urban furniture.  
+						<br/>
+						<br/>
+					</p>
+					<p class="site-desc">
+						Her research interests are many, they include: causes and consequences of urbanization and analysis of gentrification trends, the role of amenities in urban vitality, civic engagement through crowd-sourced data collection methods, and spatial mapping and visualization.
+						<br/>
+						<br/>
+					</p>
+					
+					
+					
+				</div><!-- // .desktop-6 -->
+
+				<div class="clear"></div>
+			</div><!-- // .container -->
+		</div><!-- // .logo-wrap -->
+	</section><!-- // #header -->
+
+
+	<!-- Research
+	================================================== -->
+	<section id="research">
+		<div class="container">
+			<div class="desktop-12 columns">
+				<h1>Research</h1>
+				<div class="border-top"></div></div>
+
+			
+				<a href="blogpost_ghostcities.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class=" item first-row">
+							<h3>Ghost Cities of China - 2017</h3>
+							<span class="category">Amenities, Urban Vitality</span>
+
+							<img class = 'colorHighlight' src="images/GhostCities_cover.svg" alt="" />
+						</div>
+					</div>
+				</a>
+				
+				<!-- <a href="single-illustration-sidebar-left.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item first-row">
+							<h3>Masters Thesis - 2016</h3>
+							<span class="category">Infrastructure, IoT</span>
+
+							<img  height="260px !important;" class = 'colorHighlight' src="images/Thesis_parkingmeter.svg" alt="" />
+						</div>
+					</div>
+				</a>
+				 -->
+				<a href="blogpost_digitalmatatus.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item first-row">
+							<h3>Digital Matatus - 2014</h3>
+							<span class="category">Informal Transit</span>
+
+							<img class = 'colorHighlight' src="images/DM_map.svg" alt="" />
+						</div>
+					</div>
+				</a>
+				
+				<a href="blogpost_bk.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item first-row">
+							<h3>From Biggie to Brunch - 2014</h3>
+							<span class="category">Amenities, Gentrification</span>
+
+							<img class = 'colorHighlight' src="images/BK_cafes.svg" alt="" />
+						</div>
+					</div>
+				</a>
+				
+				<a href="blogpost_idb.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item">
+							<h3>Institutional Network Analysis - 2015</h3>
+							<span class="category">Networks</span>
+
+							<img class = 'colorHighlight' src="images/IADB_networksmall.svg" alt="" />
+						</div>
+					</div>
+				</a>
+
+				<div class="clear"></div>
+			
+				
+				
+				<a href="blogpost_pollution.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item">
+							<h3>Pollution Through China's Own Lens - 2015</h3>
+							<span class="category">Social Media, Censorship</span>
+
+							<img class = 'colorHighlight' src="images/Pollution_small.png" alt="" />
+						</div>
+					</div>
+				</a>
+				
+				<a href="blogpost_da.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item">
+							<h3>Data Action Project - 2015</h3>
+							<span class="category">Urban Vitality, Social Media</span>
+
+							<img class = 'colorHighlight' src="images/DA_squares.png" alt="" />
+						</div>
+					</div>
+				</a>
+				
+				<a href="blogpost_airport.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item">
+							<h3>Airport City Within the City - 2016</h3>
+							<span class="category">Infrastructure</span>
+
+							<img class = 'colorHighlight' src="images/TP_aetropolis_simpler.png" alt="" />
+						</div>
+					</div>
+				</a>
+				
+				<a href="blogpost_random.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item">
+							<h3>Random Walk in NYC - 2012</h3>
+							<span class="category">Urban Density</span>
+
+							<img  class = 'colorHighlight' src="images/RW_small.svg" alt="" />
+						</div>
+					</div>
+				</a>
+				
+				<div class="clear"></div>
+			
+				
+				
+				
+				<div class="clear"></div>
+			
+		</div><!-- // .container -->
+	</section><!-- // section#works -->
+	<br />
+	<br />
+	<br />
+	<!-- Design
+	================================================== -->
+	<!-- <section id="design">
+		<div class="container">
+			<div class="desktop-12 columns">
+				<h1>Design</h1>
+				<div class="border-top"></div></div>
+
+			
+				
+				
+				<div class="clear"></div>
+			
+		</div>
+	</section> --> <!-- // section#design
+
+
+
+	<!-- Footer
+	================================================== -->
+	<section id="footer">
+		<div class="container">
+			<div class="desktop-3 columns">
+				<p>Copyright &copy; Wenfei Xu</p>
+			</div>
+
+			<div class="desktop-9 columns">
+				<ul id="social">
+					<li><a href="mailto:xu.wenfei@gmail.com" >
+							<svg width='40px' height="40px"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+							<path d="M30,0C13.4,0,0,13.4,0,30s13.4,30,30,30s30-13.4,30-30S46.6,0,30,0z M43.5,16.7L30,27.4L16,16.7H43.5z M44.9,43.3H14.6V21.2
+								l14,10.6c0.4,0.3,0.9,0.4,1.4,0.4c0.5,0,0.9-0.2,1.2-0.4l13.7-10.9V43.3z"/>
+							</svg>
+						</a>
+					</li>
+					<li><a href="https://www.linkedin.com/in/wenfei-xu-676a87a/" >
+							<svg width='40px' height="40px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+							<path class="st0" d="M47.2,44.3V32.5c0-6.3-3.3-9.2-7.8-9.2c-3.6,0-5.2,2-6.1,3.4v-2.9h-6.8c0.1,1.9,0,20.4,0,20.4h6.8V32.9
+								c0-0.6,0-1.2,0.2-1.7c0.5-1.2,1.6-2.5,3.5-2.5c2.5,0,3.4,1.9,3.4,4.6v10.9L47.2,44.3L47.2,44.3z M19.3,21c2.4,0,3.8-1.6,3.8-3.5
+								c0-2-1.5-3.5-3.8-3.5s-3.8,1.5-3.8,3.5C15.5,19.5,17,21,19.3,21L19.3,21z M30.4,60.1c-16.6,0-30-13.4-30-30c0-16.6,13.4-30,30-30
+								s30,13.4,30,30C60.4,46.7,46.9,60.1,30.4,60.1z M22.7,44.3V23.8h-6.8v20.4H22.7z"/>
+							</svg>
+						</a>
+					</li>
+					<li><a href="https://github.com/iamwfx" >
+							<svg width='40px' height="40px" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+
+							<path class="st0" d="M30-0.4C13.4-0.4,0,13,0,29.5C0,42.7,8.6,54,20.5,57.9c1.5,0.3,2-0.7,2-1.4c0-0.7,0-2.6,0-5.1
+								c-8.3,1.8-10.1-4-10.1-4C11.1,43.9,9.1,43,9.1,43c-2.8-1.8,0.2-1.8,0.2-1.8c3,0.2,4.6,3.1,4.6,3.1c2.7,4.6,7,3.3,8.7,2.5
+								c0.3-1.9,1.1-3.3,1.9-4c-6.6-0.8-13.7-3.4-13.7-14.8c0-3.3,1.1-5.9,3.1-8c-0.3-0.8-1.3-3.8,0.3-7.9c0,0,2.5-0.8,8.2,3.1
+								c2.4-0.7,5-1,7.5-1.1c2.6,0,5.1,0.4,7.5,1.1c5.7-3.8,8.2-3.1,8.2-3.1c1.6,4.1,0.6,7.2,0.3,7.9c1.9,2.1,3.1,4.8,3.1,8
+								c0,11.5-7,14.1-13.7,14.7c1.1,1,2,2.8,2,5.6c0,4,0,7.3,0,8.2c0,0.8,0.6,1.7,2.1,1.4c11.9-3.9,20.5-15.2,20.5-28.4
+								C59.9,13,46.5-0.4,30-0.4z"/>
+							</svg>
+						</a></li>
+				</ul><!-- // #social -->
+			</div><!-- // .desktop-9 -->
+
+			<div class="clear"></div>
+		</div><!-- // .container -->
+	</section><!-- // section#footer -->
+
+
+	<!-- JS
+	================================================== -->
+	<!-- 
+		Flexslider 2.1 has known issues of manualControls setting with jQuery 1.9~
+		Use jQuery 1.8 until Flexslider 2.2 stable version is released
+	-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="js/jQuery.BlackAndWhite.min.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/less-1.4.0.min.js"></script>
+	<script src="js/jquery.typeMenu.js"></script>
+	<script src="js/jquery.typeSticky.js"></script>
+
+
+	<script src="js/scroll.js"></script>
+
+	
+
+
+	<script src="js/jquery.custom.js"></script>
+
+
+<!-- End Document
+================================================== -->
 </body>
 </html>
