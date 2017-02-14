@@ -130,9 +130,9 @@ b, strong { font-weight: bold; }
 
 
 div{ 
-	  transition: 200ms;
+	  transition: 300ms;
 	  transition-timing-function: ease-in-out;
-	  -webkit-transition: 200ms;
+	  -webkit-transition: 300ms;
 	  -webkit-transition-timing-function: ease-in-out;
 	}
 
@@ -478,9 +478,9 @@ div{
 		width: 25%;
 		display: inline;
 		float: left;
-		  transition: 200ms;
+		  transition: 300ms;
 			  transition-timing-function: ease-in-out;
-			  -webkit-transition: 200ms;
+			  -webkit-transition: 300ms;
 			  -webkit-transition-timing-function: ease-in-out;
 	}
 
@@ -861,6 +861,10 @@ div{
 	   -ms-filter: grayscale(100%);
 	   filter: grayscale(100%);
 	   filter: gray; /* IE 6-9 */
+	    transition: 300ms;
+			  transition-timing-function: ease-in-out;
+			  -webkit-transition: 300ms;
+			  -webkit-transition-timing-function: ease-in-out;
 	   /*width: auto;*/
 	   /*height: 260px;*/
 	}
@@ -1466,9 +1470,9 @@ div{
 				fill:#22eedd;
 			}
 			#footer #social svg { 
-			  transition: 200ms;
+			  transition: 300ms;
 			  transition-timing-function: ease-in-out;
-			  -webkit-transition: 200ms;
+			  -webkit-transition: 300ms;
 			  -webkit-transition-timing-function: ease-in-out;
 			}
 

@@ -144,10 +144,19 @@
 							<blockquote>
 							<p class="quote">What is a ghost city?  The answer is complex.</p>
 						</blockquote>
-
-						<p> Ultimately, the research results show that openly accessible data available through social media can help locate and estimate risk in the Chinese real estate market, but perhaps more importantly, identifying where these areas are concentrated can help city planners, developers and local citizens make better investment decisions and address the risk created by these under-utilized developments.  These results represent a data set, built outside the government, of the transitional, underperforming or vacant housing stock in the Chinese market, while also sho wing how open-source and social media data can be used to understand the urban condition. </p>
-
+						<p>In this project, we collected data for over 20 cities to create a granular model for residential vacancy discovery.  After we created our ghost cities model, we went to China to ground-truth our information.  We consider this also an important part of the model building process, as we were able to validate some of the results from our model first hand, as well as develop a deeper understanding of the issue from key stakeholders. </p>
+					
 						
+
+						<div class="desktop-4 offset-1 tablet-6 columns">
+							<img src="images/GC_graph1.png" alt="" />
+						</div>
+						<div class="desktop-4 tablet-6 columns">
+							<img src="images/GC_graph2.png" alt="" />
+						</div>
+
+						<p>Cities are separated into an 'urban' and 'surburan' group based on their population distribution, and each group's amenities scores are calculated and clustered based on spatial autocorrelation.</p>
+
 					
 						<div class="desktop-4 tablet-6 columns">
 							<img src="images/GC_amenities.png" alt="" />
@@ -157,11 +166,15 @@
 							<img src="images/GC_clustering.gif" alt="" />
 							We create a gravity model based on nearby amenities that are essential to a lively community. Each residential area in the city is given an amenities score, and scores are then filtered for ghost city candidates. 
 						</div>
+						
+
 						<div class="desktop-10 tablet-12 columns">
-							In this project, we collected data for over 20 cities to create a granular model for residential vacancy discovery.  After we created our ghost cities model, we went to China to ground-truth our information.  We consider this also an important part of the model building process, as we were able to validate some of the results from our model first hand, as well as develop a deeper understanding of the issue from key stakeholders. 
+							<p>
+							Ultimately, the research results show that openly accessible data available through social media can help locate and estimate risk in the Chinese real estate market, but perhaps more importantly, identifying where these areas are concentrated can help city planners, developers and local citizens make better investment decisions and address the risk created by these under-utilized developments.  These results represent a data set, built outside the government, of the transitional, underperforming or vacant housing stock in the Chinese market, while also sho wing how open-source and social media data can be used to understand the urban condition.</p>
 						</div>
 
 						<div class="desktop-10 tablet-12 columns">
+							<img src="images/GC_website.png" alt="" />
 							<img src="images/GC_incon.png" alt="" />
 							<img src="images/GC_incon2.png" alt="" />
 							<img src="images/GC_newc.png" alt="" />
@@ -244,7 +257,16 @@
 
 	<script src="js/scroll.js"></script>
 
-	
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91894646-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 	<script src="js/jquery.custom.js"></script>
