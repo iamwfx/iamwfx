@@ -872,7 +872,7 @@ div{
 	.colorHighlight:hover {
 	   /*background-color: red;*/
 	   filter: none;
-	   opacity: 10%;
+	   opacity: 100%;
 	   /*width: auto;*/
 	   /*height: 260px;*/
 	}
